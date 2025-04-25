@@ -33,6 +33,10 @@ jobs:
           # Verify build output exists
           [ -d dist ] || { echo "Build failed - no dist directory"; exit 1; }
 
+          # Copy vercel.json to dist folder
+          cp vercel.json dist/vercel.json
+          echo "Copied vercel.json to dist folder"
+
       - name: Install Vercel CLI
         run: npm install -g vercel@latest
 
