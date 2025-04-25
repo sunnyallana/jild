@@ -192,7 +192,6 @@ git clone https://github.com/sunnyallana/jild.git
 cd jild
 
 # Frontend setup
-cd frontend
 npm install
 npm run dev
 
@@ -201,12 +200,7 @@ cd ../backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-flask run
-
-# ML model setup
-cd ../jild-ai
-docker build -t jild-ai .
-docker run -p 8000:8000 jild-ai
+python app.py
 ```
 
 ---
