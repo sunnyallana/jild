@@ -155,8 +155,15 @@ graph TD
 ### SonarCloud Dashboard
 ![Screenshot From 2025-04-25 21-22-20](https://github.com/user-attachments/assets/4cd96784-8362-42d8-b50e-bfa39fde7c75)
 
-### GitHub Pull Request Analysis
-![devops](https://github.com/user-attachments/assets/753961b7-a50b-49b4-b3a0-2683c59eacfd)
+### Code Rabbt and Sonar Cloud Analysis
+![Screenshot From 2025-04-25 21-31-19](https://github.com/user-attachments/assets/d45edecf-419a-4f1c-86bd-7b8ba39f39c4)
+
+### Dependabot Analysis
+![Screenshot From 2025-04-25 14-33-29](https://github.com/user-attachments/assets/dc662763-02c4-4d1c-8bcf-0fb3b6cedcea)
+
+### GitGuradian Scans
+![WhatsApp Image 2025-04-25 at 9 35 56 PM](https://github.com/user-attachments/assets/5dfee723-a438-447e-8cff-0ac2a63541b8)
+
 
 
 **Key Metrics:**
