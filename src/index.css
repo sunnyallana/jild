@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-50 text-neutral-800 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium leading-tight;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white p-6 rounded-xl shadow-soft;
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border border-primary text-primary hover:bg-primary-bg px-6 py-3 rounded-lg font-medium transition-colors duration-300;
+  }
+  
+  .input-field {
+    @apply w-full border border-neutral-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-primary-lighter focus:border-transparent outline-none transition duration-300;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s ease-out;
+}
