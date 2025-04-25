@@ -151,7 +151,7 @@ graph TD
 ![grafana](https://github.com/user-attachments/assets/56ead045-1adc-4c30-b80e-4f7a88ddf3de)
 
 ### SonarCloud Dashboard
-![sonarcloud](https://github.com/user-attachments/assets/b94a4693-c025-467c-980f-3f120c17cf25)
+![Screenshot From 2025-04-25 21-22-20](https://github.com/user-attachments/assets/4cd96784-8362-42d8-b50e-bfa39fde7c75)
 
 ### GitHub Pull Request Analysis
 ![devops](https://github.com/user-attachments/assets/753961b7-a50b-49b4-b3a0-2683c59eacfd)
