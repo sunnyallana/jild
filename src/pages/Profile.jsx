@@ -6,14 +6,9 @@ import {
   Alert,
   CircularProgress,
   Box,
-  Divider,
 } from "@mui/material";
 import { useAuth } from "../hooks/useAuth";
-import {
-  getUserProfile,
-  saveUserProfile,
-  getUserQuestionnaire,
-} from "../utils/supabase";
+import { getUserProfile, saveUserProfile } from "../utils/supabase";
 
 const Profile = () => {
   const { user } = useAuth();
@@ -26,15 +21,11 @@ const Profile = () => {
     lastName: "",
     email: "",
   });
-  const [questionnaire, setQuestionnaire] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [profileData, questionnaireData] = await Promise.all([
-          getUserProfile(user.id),
-          getUserQuestionnaire(user.id),
-        ]);
+        const profileData = await Promise.all([getUserProfile(user.id)]);
 
         if (profileData.profile) {
           setProfile({
@@ -49,8 +40,6 @@ const Profile = () => {
             email: user.email,
           });
         }
-
-        setQuestionnaire(questionnaireData);
       } catch (error) {
         console.error("Error fetching profile:", error);
         setError("Failed to load profile data");
