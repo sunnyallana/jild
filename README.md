@@ -4,6 +4,8 @@
 [![Python](https://img.shields.io/badge/Python-3.11-yellow?logo=python)](https://www.python.org/)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Inference%20API-orange)](https://huggingface.co/spaces/sunnyallana/jild-ai)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/sunnyallana/jild/blob/main/LICENSE)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/sunnyallana/jild?utm_source=oss&utm_medium=github&utm_campaign=sunnyallana%2Fjild&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=sunnyallana_jild)
 
 **Jild democratizes skincare expertise** through AI-powered analysis and personalized product recommendations, making dermatological knowledge accessible to everyone.
 
@@ -210,6 +212,3 @@ python app.py
 MIT © Sunny Allana
 
 *Empowering skincare with AI, one face at a time.*
-
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/sunnyallana/jild?utm_source=oss&utm_medium=github&utm_campaign=sunnyallana%2Fjild&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=sunnyallana_jild)
