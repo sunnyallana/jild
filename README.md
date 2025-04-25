@@ -130,7 +130,7 @@ graph TD
 | Component | Technology | Why We Chose It |
 |-----------|------------|-----------------|
 | **Frontend** | React, TypeScript, Tailwind, MUI | Robust ecosystem, type safety, rapid styling |
-| **ML Pipeline** | TensorFlow, Python, Docker | Industry standard for CV, containerized for consistency |
+| **ML Pipeline** | Python, RoboFlow, Docker | Industry standard for CV, containerized for consistency |
 | **Deployment** | Vercel, Hugging Face | Specialized platforms for frontend and ML workloads |
 | **Database** | PostgreSQL via Supabase | Relational model for user data with managed service |
 | **DevOps** | GitHub Actions, SonarCloud | Automated CI/CD with code quality analysis |
@@ -154,7 +154,7 @@ graph TD
 ![sonarcloud](https://github.com/user-attachments/assets/b94a4693-c025-467c-980f-3f120c17cf25)
 
 ### GitHub Pull Request Analysis
-[devops.pdf](https://github.com/user-attachments/files/19912304/devops.pdf)
+![devops](https://github.com/user-attachments/assets/753961b7-a50b-49b4-b3a0-2683c59eacfd)
 
 
 **Key Metrics:**
