@@ -216,6 +216,6 @@ python app.py
 
 ## 📜 License
 
-MIT © Sunny Shaban Ali
+GPL © Sunny Shaban Ali
 
 *Empowering skincare with AI, one face at a time.*
