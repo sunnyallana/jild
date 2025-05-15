@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://images.pexels.com/photos/3762453/pexels-photo-3762453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.pexels.com/photos/5927811/pexels-photo-5927811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Woman with glowing skin"
                 className="rounded-2xl shadow-medium object-cover max-h-[500px] w-full"
               />
