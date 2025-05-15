@@ -10,7 +10,9 @@
 **Jild democratizes skincare expertise** through AI-powered analysis and personalized product recommendations, making dermatological knowledge accessible to everyone.
 
 **Live App**: [jild.vercel.app](https://jild.vercel.app)  
+
 **AI Hugging Face**: [Try the Skin Analyzer](https://huggingface.co/spaces/sunnyallana/jild-ai)
+
 **Demo Video**: [YouTube](https://youtu.be/vrUPTZGTLyw)  
 
 
