@@ -35,7 +35,7 @@ py-cpuinfo==9.0.0
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 PyYAML==6.0.2
-requests==2.32.3
+requests==2.32.4
 scipy==1.15.2
 six==1.17.0
 supervision==0.25.1
