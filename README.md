@@ -219,6 +219,17 @@ python app.py
 
 ---
 
+## 🏆 Team
+
+Sunny Shaban
+Arsam Uzair
+Shanza Noor
+Shaheer Usmai
+
+![1746186779225](https://github.com/user-attachments/assets/1229b50e-cec6-46a4-b1b0-5dde5d726041)
+
+---
+
 ## 📜 License
 
 GPL © Sunny Shaban Ali
