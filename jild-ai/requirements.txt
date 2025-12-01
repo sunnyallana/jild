@@ -14,7 +14,7 @@ dataclasses-json==0.6.7
 defusedxml==0.7.1
 Flask==3.1.0
 flask-cors==5.0.1
-fonttools==4.57.0
+fonttools==4.61.0
 frozenlist==1.6.0
 idna==3.10
 inference-sdk==0.9.17
